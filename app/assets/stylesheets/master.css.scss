@@ -13,12 +13,12 @@
 }
 
 .hero {
-  background: url('hero.jpg') no-repeat center center fixed;
+  background: url('hero2.jpg') no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  height: 450px;
+  height: 370px;
   box-shadow: 0px 3px 8px #2a2a2a;
 }
 
@@ -44,4 +44,9 @@ h1, h2, h3, h4, h5, h6, .navbar {
 
 .btn {
   border-radius: 0;
+}
+
+body {
+  background: url('bg.png');
+  font-family: Constantia, "Lucida Bright", Lucidabright, "Lucida Serif", Lucida, "DejaVu Serif", "Bitstream Vera Serif", "Liberation Serif", Georgia, serif;
 }
